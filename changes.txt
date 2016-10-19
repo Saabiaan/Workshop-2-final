@@ -1,0 +1,13 @@
+In accordance to the peer review I have made the following changes:
+
+*I have obviously adressed the issue with not being able to write to and read from file correctly.
+
+*I have changed the way a user registers a boat. The previous way was ”flawed” and I came up with a simpler way to solve the problem. 
+
+*I have implemented a input check for all of the input so that the program does not crash. Previously I had forgotten to do so in the menu-input were the user chooses what task he/she wants to do.
+
+In the peer review i got a remark for duplicate code in my MemberRegistry class were I search for members using a for each loop and then a if-statement to check if the unique ID matches. I have however chosen NOT to create a method for getting a member by unique ID. This is because it would actually need more code to implement this solution instead of the one I use today. Furthermore I (personal opinion) find it much more easy to read and understand the code as is.
+
+I have made interaction diagrams for two of the functions, Search member and Add member.
+
+After the peer review i made small changes regarding the name of the arrows to better match the function names. I also added the creation of memberList in MemberRegistry so that it better illustrates the function of the application.
